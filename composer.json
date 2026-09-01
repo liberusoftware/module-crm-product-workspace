@@ -1,1 +1,5 @@
-{"name":"liberusoftware/module-crm-product-workspace","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\ProductWorkspace\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\ProductWorkspace\\ProductWorkspaceServiceProvider"]},"liberu":{"name":"crm-product-workspace"}}}
+{"name":"liberusoftware/module-crm-product-workspace","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\ProductWorkspace\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\ProductWorkspace\\ProductWorkspaceServiceProvider"]},"liberu":{"name":"crm-product-workspace"}},
+    "require": {
+        "liberusoftware/module-organizations-teams": "^1.0"
+    }
+}
